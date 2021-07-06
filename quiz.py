@@ -24,4 +24,5 @@ for i, question in enumerate(questions):
 
 score = int(score)
 
-print(f"your score is {score}")
+print(f"your score is {score} out of 15")
+print("Thank you for playing ")
