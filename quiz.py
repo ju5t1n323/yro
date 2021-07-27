@@ -6,8 +6,8 @@ response = requests.get("https://opentdb.com/api.php?amount=15&category=23&diffi
 questions = response.json()["results"]
 
 print('\033[95m'"""------------welcome to the wild no heros 's villains------------
-    hi, my name is Justin ummmmmm, i made this quiz using my python skills i hope you enjoy! 
-    Now, this is how to play my quiz you rread the question and then answer either True or False. 
+    hi, my name is Justin, i made this quiz by using my python skills, i hope you enjoy! 
+    Now, this is how to play my quiz you read the question and then answer either True or False. 
     (make sure your spelling is correct and use capital letter for the first letter of the answer) enjoy ^;^""")
 score = 0
 for i, question in enumerate(questions):
@@ -25,4 +25,4 @@ for i, question in enumerate(questions):
 score = int(score)
 
 print(f"your score is {score} out of 15")
-print("Thank you for playing ")
+print("Thanks for playing!")
